@@ -117,10 +117,6 @@ header {
   color: #404bbf;
 }
 
-/* .footer-logo {
-  margin-bottom: 16px;
-} */
-
 /* first-section */
 
 .first-section {
@@ -161,6 +157,8 @@ header {
 .button:focus {
   background-color: #404bbf;
 }
+
+/* second-section */
 
 .second-section {
   padding: 120px 0;
@@ -215,8 +213,15 @@ header {
   background-color: #fff;
 }
 
+/* footer */
+
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo .text-span {
   color: #f4f4fd;
